@@ -1,0 +1,18 @@
+.outer-square{
+
+    width: 600px;
+    height: 600px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-color: white;
+}
+.inner-squares{
+    margin: 10px;
+    background-color: green;
+}
+.inner-circles{
+    margin: 10px;
+    background-color: blue;
+    border-radius: 100%;
+}
